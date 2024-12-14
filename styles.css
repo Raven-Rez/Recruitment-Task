@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #f6d365, #fda085);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 600px;
+    gap: 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #f6d365, #fda085); /* This will fill the gap space with a solid color */
+}
+
+.left-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #ccc;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.8)); /* Gradient background */
+}
+
+.upper-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 204, 204, 0.6), rgba(255, 255, 204, 0.5)); /* New Year soft gradient */
+
+    
+}
+
+.lower-section {
+    margin-bottom: 0%;
+    flex: 1;
+    padding: 20px;
+    background: url("output.jpg") no-repeat;
+    background-size: 100% 100%;
+
+}
+
+header {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(228, 154, 56);
+    border-bottom: 3px solid blue;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+}
+
+.countdown div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 30px;
+    height: 40px; 
+}
+
+.countdown .time {
+    font-size: 2.1rem; 
+    font-weight: bold;
+    color: #333; 
+}
+
+.countdown span {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: 5px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #2a5298; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1e3c72; 
+    transform: translateY(-2px); 
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+
+.right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    text-align: center;
+    background: rgba(240, 240, 240, 0.9);
+    padding: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 250px; 
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #1e3c72;
+    margin-bottom: 40px;
+}
+
+.profile .details h3 {
+    margin: 10px 5px 40px;
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.profile .details p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+}
