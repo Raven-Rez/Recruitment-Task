@@ -12,7 +12,7 @@ Responsive Layout: The layout is responsive and adjusts according to the screen 
 Customizable Countdown Timer: The countdown values (days, hours, minutes, seconds) are dynamically updated every second to reflect the time remaining.
 Professional and Clean Design: Features a visually appealing design with a New Year theme using gradients, backgrounds, and a personalized profile section.
 
-Technologies Used:
+Languages Used:
 
 HTML: Used for the structure of the countdown and profile page.
 CSS: For styling the layout, countdown timer, and adding smooth hover effects for buttons.
